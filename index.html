@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c424e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://t4.ftcdn.net/jpg/03/37/79/05/240_F_337790553_bynjMsS1GuOXm4LadxvW2PRr2abr8CxZ.jpg" class="logo" alt="logo" width="40px" height="80px">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                 <h1>Hi, I'm <span>Rishwitha</span><br>From IIT Kanpur</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" width="80px" height="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab modi hic nam, voluptatibus neque molestias iste fugiat ipsa deserunt ducimus amet delectus quae minima cupiditate nihil reiciendis eius a animi!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents activecontent" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App development</li>
+                            <li><span>Languages</span><br>C|C++|HTML|CSS|JavaScript|Node.js|SQL</li>
+                            <li><span>Libraries</span><br>Git|Github</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Senior Executive</span><br>Public Relations techkriti'23</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Deparment of Electrical Engineering,IIT Kanpur</li>
+                            <li><span>2019-2021</span><br>Intermediate Board of Telangana</li>
+                            <li><span>2019</span><br>SSC</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Projects---------->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="projects-list">
+                <section>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/3573/3573187.png" height="50px" width="50px">
+                        <h2>Full-Stack-Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia excepturi ipsam! Dolorem sit consequuntur saepe corporis culpa quod, amet aliquid quis pariatur quasi deserunt quas asperiores eum non qui.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/246/246569.png" height="50px" width="50px">
+                        <h2>Dice challenge</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia excepturi ipsam! Dolorem sit consequuntur saepe corporis culpa quod, amet aliquid quis pariatur quasi deserunt quas asperiores eum non qui.</p>
+                        <a href="https://rakeshvankdoth.github.io/Roll-Dice/">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/2394/2394869.png" height="50px" width="50px">
+                        <h2>Drum-Kit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia excepturi ipsam! Dolorem sit consequuntur saepe corporis culpa quod, amet aliquid quis pariatur quasi deserunt quas asperiores eum non qui.</p>
+                        <a href="https://rakeshvankdoth.github.io/Drum-kit/">Learn more</a>
+                    </div>
+                </section>
+            </div> 
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <section>
+                <div class="contact-left">
+                    <h2 class="subtitle">Contact Me</h2>
+                    <p>rishwitha21@iitk.ac.in</p>
+                    <p>7989364271</p>
+                    <div class="social">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" width="25px" height="25px"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="25px" height="25px"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width="25px" height="25px"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" width="25px" height="25px"></a>
+                        <div>
+                            <a href="/images/my-cv.pdf" download class="btn btn2">Check My CV</a>
+                        </div>
+                        </div>
+                    </section>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+           
+            </div>
+        </div>
+        <div class="copy">
+            <p>©2023 Rishwitha Dharavath 💟</p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activecontent");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("activecontent");
+        }
+    </script>
+</body>
+</html>
